@@ -28,7 +28,7 @@ In this round, the focus was mainly on problem-solving using JavaScript and anal
 
 **Question 3:** Bonus Question: To find the number of plots in a 2D matrix. A plot is defined as a group of land cells connected to each other. The matrix contained 0s and 1s, where 0 represented water and 1 represented land.
 
-I performed well in this round and received a call for the next round.
+I nailed this round and received a call for the next round.
 
 ### Round 2: Machine Coding Round
 
