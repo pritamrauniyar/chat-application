@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp Web Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- The main container of the app -->
+    <div class="container">
+      <!-- The main section containing both the contacts list and the chat area -->
+      <div class="section">
+        <!-- Left section, contains the contact list -->
+        <div class="left-section">
+          <h3>Filter By Title / Order ID</h3>
+          <input
+            type="text"
+            placeholder="Search For Contacts"
+            class="search-input"
+            id="search-input"
+          />
+          <!-- Container for contacts -->
+          <div class="contacts-container">
+            <ul id="search"></ul>
+          </div>
+        </div>
+
+        <!-- Right section, contains the chat area -->
+        <div class="right-section">
+          <!-- The header in the chat area showing contact details -->
+          <div class="right-contact-details">
+            <img src="" alt="Profile Image" id="chat-pic" />
+            <h2 id="chat-header"></h2>
+          </div>
+          <!-- Wrapper for the chat messages -->
+          <div class="contact-msg-wrapper">
+            <!-- Container for the chat messages -->
+            <div class="contact-msg">
+              <ul id="chat-msg"></ul>
+            </div>
+          </div>
+          <!-- Input box for typing and sending messages -->
+          <div class="contact-msg-box">
+            <input type="text" name="chat-write-msg" id="chat-write-msg" />
+            <button id="chat-send-btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Include the script.js file at the end of the body -->
+    <script src="script.js"></script>
+  </body>
+</html>

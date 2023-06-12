@@ -1,0 +1,199 @@
+/* Reset default styles and set box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body styles */
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Set container styles */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+/* Set styles for sections */
+.section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Set styles for left section */
+.left-section {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+}
+
+/* Set styles for contacts container */
+.contacts-container {
+  overflow-y: auto;
+  height: calc(100% - 60px);
+  margin-top: 10px;
+}
+
+/* Set styles for search input */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+}
+
+/* Set styles for contact details */
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+/* Set hover styles for contact details */
+.contact-details:hover {
+  background-color: #e0e0e0;
+}
+
+/* Set styles for contact image */
+.left-section .contact-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Set styles for contact name */
+.left-section .contact-name {
+  font-size: 1.1rem;
+}
+
+/* Set styles for contact name and order ID container */
+.contact-name-orderid {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* Set styles for right section */
+.right-section {
+  display: none;
+  height: 100%;
+  width: 60%;
+  background-color: #f0f2f5;
+}
+
+/* Set styles for right contact details */
+.right-contact-details {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+/* Set styles for chat picture */
+#chat-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: auto;
+}
+
+/* Set styles for chat header */
+#chat-header {
+  font-size: 1.5rem;
+  margin: 0px 200px;
+  padding: 0.5rem;
+}
+
+/* Set styles for contact message wrapper */
+.contact-msg-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  overflow-y: auto;
+  background-color: whitesmoke;
+}
+
+/* Set styles for contact messages */
+.contact-msg {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+/* Set styles for chat messages */
+#chat-msg {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Set styles for sent messages */
+.contact-sent-msg {
+  align-self: flex-end;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: skyblue;
+}
+
+/* Set styles for received messages */
+.contact-received-msg {
+  align-self: flex-start;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Set styles for message input box */
+.contact-msg-box {
+  height: 10%;
+  width: 100%;
+}
+
+/* Set styles for send button */
+#chat-send-btn {
+  height: 80%;
+  margin: 0px;
+  font-size: 1.5rem;
+  width: 10%;
+  border-radius: 5px;
+}
+
+/* Set styles for message input */
+#chat-write-msg {
+  width: 86%;
+  height: 80%;
+  margin: 7px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+}
