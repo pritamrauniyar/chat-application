@@ -104,6 +104,8 @@ class Chat {
       messageLi.append(userMsg, userTime);
       messageLists.appendChild(messageLi);
     });
+    let sendButton = document.querySelector("#chat-send-btn");
+    let messageInput = document.querySelector("#chat-write-msg");
   }
 }
 
