@@ -104,33 +104,7 @@ class Chat {
       messageLi.append(userMsg, userTime);
       messageLists.appendChild(messageLi);
     });
-
-    // //To send message msg
-    // let sendButton = document.querySelector("#chat-send-btn");
-    // let messageInput = document.querySelector("#chat-write-msg");
-    // sendButton.addEventListener("click", () =>
-    //   this.sendMessage(messageInput.value)
-    // );
   }
-
-  // // Method to send a message
-  // sendMessage(message) {
-  //   if (message.trim() !== "") {
-  //     // check if message is not blank
-  //     // Add new message to this contact's messageList
-  //     this.data.messageList.push({
-  //       sender: "USER",
-  //       message: message,
-  //       timestamp: new Date().toISOString(),
-  //     });
-
-  //     // Clear message input
-  //     document.querySelector("#chat-write-msg").value = "";
-
-  //     // Re-render messages
-  //     this.renderChatMessages();
-  //   }
-  // }
 }
 
 // Class representing the search functionality
