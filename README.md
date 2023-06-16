@@ -47,6 +47,4 @@ I was able to implement most of the required features in this repository.
 
 **Bonus features:** Unfortunately, I don't recall the details of the bonus features.
 
-However, I did not proceed to the next round as I was not selected. The feedback I received was that I needed to improve my basic JavaScript skills. I accepted the feedback and committed to learning and improving.
-
 I hope this article and code can be helpful to those pursuing their dream job. Best of luck to you!
